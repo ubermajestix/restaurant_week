@@ -2,6 +2,8 @@ require 'nokogiri'
 require 'cgi'
 class Restaurant < ActiveRecord::Base
   
+  named_scope :geocoded, :conditions => "lat is not null and lng is not null"
+  
   def self.scrape
     doc = Nokogiri::HTML(`curl http://www.denver.org/denverrestaurant/Restaurants.aspx`)
     # restaurant_links = ["denverrestaurant/Menus/Menu.aspx?id=389"]

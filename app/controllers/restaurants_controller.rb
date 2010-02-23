@@ -1,6 +1,6 @@
 class RestaurantsController < ApplicationController
   def index
-    @restaurants = Restaurant.all(:conditions=>["lat != NULL and lng != NULL"])
+    @restaurants = Restaurant.geocoded
   end
   
 end
