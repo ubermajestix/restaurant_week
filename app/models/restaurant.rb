@@ -1,5 +1,5 @@
-require 'nokogiri'
 require 'cgi'
+
 class Restaurant < ActiveRecord::Base
   
   named_scope :geocoded, :conditions => "lat is not null and lng is not null"
