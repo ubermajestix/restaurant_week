@@ -1,0 +1,44 @@
+{
+  "name": "1550 Court Place Denver CO 80202",
+  "Status": {
+    "code": 200,
+    "request": "geocode"
+  },
+  "Placemark": [ {
+    "id": "p1",
+    "address": "1550 Court Pl, Denver, CO 80202, USA",
+    "AddressDetails": {
+   "Accuracy" : 8,
+   "Country" : {
+      "AdministrativeArea" : {
+         "AdministrativeAreaName" : "CO",
+         "SubAdministrativeArea" : {
+            "Locality" : {
+               "LocalityName" : "Denver",
+               "PostalCode" : {
+                  "PostalCodeNumber" : "80202"
+               },
+               "Thoroughfare" : {
+                  "ThoroughfareName" : "1550 Court Pl"
+               }
+            },
+            "SubAdministrativeAreaName" : "Denver"
+         }
+      },
+      "CountryName" : "USA",
+      "CountryNameCode" : "US"
+   }
+},
+    "ExtendedData": {
+      "LatLonBox": {
+        "north": 39.7453776,
+        "south": 39.7390824,
+        "east": -104.9858734,
+        "west": -104.9921686
+      }
+    },
+    "Point": {
+      "coordinates": [ -104.9890210, 39.7422300, 0 ]
+    }
+  } ]
+}

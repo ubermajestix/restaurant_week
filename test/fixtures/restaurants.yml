@@ -1,0 +1,23 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  [name: 
+  url: 
+  reservation_url: 
+  city: 
+  address1: 
+  address2: 
+  zip: 
+  state: 
+  menu_url: 
+
+two:
+  [name: 
+  url: 
+  reservation_url: 
+  city: 
+  address1: 
+  address2: 
+  zip: 
+  state: 
+  menu_url: 
