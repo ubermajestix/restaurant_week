@@ -71,4 +71,11 @@ class Restaurant < ActiveRecord::Base
     CGI.escape([street, city, state, zip].join(" "))
   end
   
+  def address
+    <<-address
+    #{street}
+    #{city}, #{state}, #{zip}
+    address
+  end
+  
 end

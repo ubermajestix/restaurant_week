@@ -1,1 +1,21 @@
-body{margin: 0;}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 12pt;
+  font-weight: lighter;
+  color:#1d1d1d;
+}
+
+div#controls{
+  position:absolute;
+  right:20;
+  top:80;
+  height:500px;
+  width:350px;
+  padding:20px;
+  -moz-border-radius: 10px; -webkit-border-radius: 10px;
+  opacity: 0.8; -moz-opacity: 0.8; filter:alpha(opacity=80);
+  background:#eee;
+  border: 1px solid #1d1d1d;
+}
+h2{margin:0;}

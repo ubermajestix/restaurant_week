@@ -14,5 +14,17 @@ namespace :scrape do
     end
   end
   
+  task :one do
+    puts 1
+  end
+  
+  task :two do
+    puts 2
+  end
+  
+  task :do_it => :one => :two do
+    puts "doing it"
+  end
+  
   
 end
