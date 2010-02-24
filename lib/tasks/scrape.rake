@@ -1,4 +1,5 @@
 namespace :scrape do 
+  
   desc "scrape restaurant info from web"
   task :info => :environment do
     Restaurant.scrape
@@ -14,17 +15,7 @@ namespace :scrape do
     end
   end
   
-  task :one do
-    puts 1
-  end
-  
-  task :two do
-    puts 2
-  end
-  
-  task :do_it => :one => :two do
-    puts "doing it"
-  end
-  
+  task :all =>[:info, :cuisine, :geocode]
+  task :default => :all
   
 end

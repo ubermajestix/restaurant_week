@@ -19,7 +19,9 @@
       markers.push(new google.maps.Marker({
         position: new google.maps.LatLng(<%= r.lat  %>,<%= r.lng %>), 
         map: map, 
-        title:"<%= r.name %>"
+        title:"<%= r.name %>",
+        // look at http://code.google.com/p/google-maps-icons/wiki/RestaurantsIcons
+        // icon: "/images/cuisines/<%= r.cuisine.downcase %>.png"
       }));
       // console.debug(markers.length)
       console.debug('<%= index %>')
